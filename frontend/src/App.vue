@@ -58,18 +58,20 @@ const currentYear = new Date().getFullYear()
   <RouterView />
 
   <footer
-    class="text-center d-flex w-100 align-items-center justify-content-between mt-5 px-5 py-2 bg-success text-white"
+    class="text-center d-flex w-100 align-items-center justify-content-center mt-5 px-5 py-2 bg-success text-white"
   >
-    <h5 class="m-0">
-      {{ currentYear }}
-      <a
-        class="link-light link-opacity-50-hover text-decoration-none"
-        href="https://rickreisme.vercel.app"
-        target="_blank"
-        ><span>&lt;rickreisme/&gt;</span></a
-      >
-    </h5>
+    <span class="m-0 d-flex align-items-center">
+      {{ currentYear }} |
+      <h6 class="m-0 ms-2"> Desenvolvido por</h6>
+    </span>
 
-    <h5 class="m-0">Desenvolvido por Rick Reis</h5>
+    <a
+      class="link-light link-opacity-50-hover text-decoration-none"
+      href="https://rickreis.dev.br"
+      target="_blank"
+      >
+      <img width="125px" height="auto" src="/logo-rickreis.png" alt="">
+    </a
+    >
   </footer>
 </template>

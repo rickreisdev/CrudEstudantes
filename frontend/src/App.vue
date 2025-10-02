@@ -67,8 +67,9 @@ const currentYear = new Date().getFullYear()
 
     <a
       class="link-light link-opacity-50-hover text-decoration-none"
-      href="https://rickreis.dev.br"
+      href="https://rickreis.com.br/dev"
       target="_blank"
+      rel="noopener noreferrer"
       >
       <img width="125px" height="auto" src="/logo-rickreis.png" alt="">
     </a
